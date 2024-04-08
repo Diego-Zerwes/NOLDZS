@@ -14,7 +14,7 @@ Projeto: NOLDZS
 
 <p align="center">
 <h3> Integrantes do Grupo </h3>
-Breno Moreno Sanches, Daniela Kauani Corte Dias, Felipe Oliveira Fernandes, Diego Zerwes Feitosa, Leandro So Fun Hsu Liu e Nasser Nader Al Masri.
+Breno Moreno Sanches, Daniela Kauani Corte Dias, Felipe Oliveira Fernandes CASCA DE BALA, Diego Zerwes Feitosa, Leandro So Fun Hsu Liu e Nasser Nader Al Masri.
 </p>
 
 <br>
