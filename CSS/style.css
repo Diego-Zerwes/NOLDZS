@@ -109,6 +109,7 @@ section#container-cliente {
   object-fit: contain;
   object-position: center;
 }
+
 .titulo-cliente {
   font-size: 20px;
   font-family: poppins;
@@ -159,3 +160,21 @@ section#container-cliente {
 
 /* FIM DO CODIGO DO LEANDRO */
 
+
+/* responsivo */
+
+/* Celular */
+@media only screen and (max-width: 550px) {
+}
+/* Tablet */
+@media only screen and (min-width: 550px) {
+}
+/* NOTBOOK PEQUENO */
+@media only screen and (min-width: 992px) {
+}
+/* NOTBOOK MEDIO */
+@media only screen and (min-width: 1440px) {
+}
+/* FULL HD*/
+@media only screen and (min-width: 1920px) {
+}
