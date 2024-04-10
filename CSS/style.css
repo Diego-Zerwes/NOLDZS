@@ -10,7 +10,7 @@ nav{
 
 .menu{
     display: flex;
-    gap: 25px;
+    align-items: center;
     list-style-type: none;
     
 }
