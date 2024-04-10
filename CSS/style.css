@@ -58,6 +58,42 @@ header {
 /* FIM DO CODIGO DO NASSER */
 
 /* INICIO DO CODIGO DA DANI */
+section.sobre{
+  padding: 40px 4%;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+#homem {
+  border-radius: 20px;
+}
+
+.sobre .txt-sobre{
+  color:#6b4394;
+}
+
+.sobre .txt-sobre h2{
+  
+  color:#451179;
+  font-size: 30px;
+  margin-bottom: 30px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.sobre .txt-sobre p{
+  margin: 10px 0;
+  text-align: justify;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.sobre .txt-sobre p span{
+  font-weight: bold;
+}
 
 /* FIM DO CODIGO DA DANI */
 
