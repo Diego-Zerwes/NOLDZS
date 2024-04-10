@@ -10,18 +10,11 @@ nav {
   position: relative;
 }
 
-<<<<<<< HEAD
 .menu{
     display: flex;
     align-items: center;
     list-style-type: none;
     
-=======
-.menu {
-  display: flex;
-  gap: 25px;
-  list-style-type: none;
->>>>>>> a0bcca8d2ec1bc21b6983ac347256bca2f86b812
 }
 
 .menu li > a {
@@ -57,7 +50,11 @@ header {
   align-items: flex-start;
   padding: 0rem 5rem;
 }
-
+.slogan {
+  font-size: 64px;
+  color: #eee;
+  width: 50%;
+}
 /* FIM DO CODIGO DO FELIPINHO */
 
 /* INICIO DO CODIGO DO NASSER */
