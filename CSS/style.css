@@ -146,11 +146,20 @@ section#container-cliente {
   color: #5177ff;
   transform: scale(1.02);
 }
+
 /* FIM DO CODIGO DO DIEGO */
 
 /* INICIO DO CODIGO DO LEANDRO */
+#container .footer {
+  display: flex;
+}
+
+.social-links img {
+  height: 24px;
+}
 
 /* FIM DO CODIGO DO LEANDRO */
+
 
 /* responsivo */
 
