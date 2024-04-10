@@ -1,0 +1,6 @@
+.container-cliente{
+  width: 100%;
+  height: auto;
+  display: flex;
+  background: #444;
+}
