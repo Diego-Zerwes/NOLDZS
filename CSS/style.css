@@ -150,7 +150,7 @@ section#container-cliente {
 /* FIM DO CODIGO DO DIEGO */
 
 /* INICIO DO CODIGO DO LEANDRO */
-#footer {
+#menu-baixo{
   height: 200px;
   width: 100%;
   background-color: #451179;
@@ -167,13 +167,26 @@ section#container-cliente {
   margin-left: 150px;
   margin-top: 45px;
 }
-.links {
-  list-style: none;
+.menu-links {
   display: flex;
+  color: #fff;
+  flex-direction: column;
+  align-items: center;
+  list-style-type: none;
+  
 }
-
-.instagram img{
-  height: 42px;
+.titulo-rodape{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-transform: none;
+  align-items: center;
+}
+.titulo-rodape img{
+  height: 40px;
+}
+.titulo-rodape li{
+  display: inline;
 }
 .localizacao{
   display: flex;
@@ -181,6 +194,12 @@ section#container-cliente {
   flex-wrap: wrap;
   align-content: space-between;
   justify-content: flex-end;
+  align-items: center;
+}
+footer {
+  background-color: #451179;
+  color: #fff;
+  padding: 16px 0px;
 }
 /* FIM DO CODIGO DO LEANDRO */
 
