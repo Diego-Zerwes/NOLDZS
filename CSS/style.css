@@ -53,6 +53,21 @@ header {
 /* FIM DO CODIGO DO FELIPINHO */
 
 /* INICIO DO CODIGO DO NASSER */
+section#serviços {
+  height: 75vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2rem 0rem;
+}
+section#serviços .titulo_serviço{
+  font-size: 32px;
+  color: #222;
+  
+}
+
 
 /* FIM DO CODIGO DO NASSER */
 
