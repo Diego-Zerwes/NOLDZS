@@ -150,14 +150,38 @@ section#container-cliente {
 /* FIM DO CODIGO DO DIEGO */
 
 /* INICIO DO CODIGO DO LEANDRO */
-#container .footer {
+#footer {
+  height: 200px;
+  width: 100%;
+  background-color: #451179;
+  display: flex;
+  justify-content: space-between;
+}
+.container{
+
+  display: flex;
+  
+}
+
+.container img {
+  margin-left: 150px;
+  margin-top: 45px;
+}
+.links {
+  list-style: none;
   display: flex;
 }
 
-.social-links img {
-  height: 24px;
+.instagram img{
+  height: 42px;
 }
-
+.localizacao{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: flex-end;
+}
 /* FIM DO CODIGO DO LEANDRO */
 
 
