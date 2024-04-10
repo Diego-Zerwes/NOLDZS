@@ -10,10 +10,11 @@ nav {
   position: relative;
 }
 
-.menu {
-  display: flex;
-  gap: 25px;
-  list-style-type: none;
+.menu{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    
 }
 
 .menu li > a {
@@ -192,9 +193,6 @@ margin: 0;
 padding: 0;
 list-style: none;
 /* float: left; */
-}
-.titulo-rodape svg{
-  
 }
 footer .rodape{
   display: flex;
