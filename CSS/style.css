@@ -50,7 +50,11 @@ header {
   align-items: flex-start;
   padding: 0rem 5rem;
 }
-
+.slogan {
+  font-size: 64px;
+  color: #eee;
+  width: 50%;
+}
 /* FIM DO CODIGO DO FELIPINHO */
 
 /* INICIO DO CODIGO DO NASSER */
