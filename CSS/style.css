@@ -86,8 +86,13 @@ section#container-cliente{
 
 
 /* INICIO DO CODIGO DO LEANDRO */
+.social-links img {
+  height: 24px;
 
+}
 
-
+#container .footer {
+  display: flex;
+}
 
 /* FIM DO CODIGO DO LEANDRO */
