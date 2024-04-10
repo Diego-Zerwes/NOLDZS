@@ -154,6 +154,7 @@ section#container-cliente {
   height: 200px;
   width: 100%;
   background-color: #451179;
+  color: #fff;
   display: flex;
   justify-content: space-between;
 }
@@ -188,14 +189,14 @@ section#container-cliente {
 .titulo-rodape li{
   display: inline;
 }
-.localizacao{
+/*.localizacao{
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-content: space-between;
   justify-content: flex-end;
   align-items: center;
-}
+}*/
 footer {
   background-color: #451179;
   color: #fff;
