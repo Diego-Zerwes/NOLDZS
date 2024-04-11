@@ -250,6 +250,7 @@ section#container-cliente .portifolio-cliente .cliente{
 section#conteiner-cliente .portifolio-cliente .cliente .imagem-cliente{
   width: 10%;
 }
+}
 
 /* FULL HD*/
 @media only screen and (min-width: 1920px) {
