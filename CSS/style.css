@@ -15,10 +15,11 @@ nav {
   position: relative;
 }
 
-.menu {
-  display: flex;
-  gap: 25px;
-  list-style-type: none;
+.menu{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    
 }
 
 .menu li > a {
@@ -54,7 +55,11 @@ header {
   align-items: flex-start;
   padding: 0rem 5rem;
 }
-
+.slogan {
+  font-size: 64px;
+  color: #eee;
+  width: 50%;
+}
 /* FIM DO CODIGO DO FELIPINHO */
 
 /* INICIO DO CODIGO DO NASSER */
@@ -216,13 +221,17 @@ section#container-cliente {
   height: 200px;
   width: 100%;
   background-color: #451179;
+  color: #fff;
   display: flex;
   justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
 }
+
 .sobre .container-sobre{
   display: flex;
 }
-
 .container img {
   margin-left: 150px;
   margin-top: 45px;
@@ -230,36 +239,38 @@ section#container-cliente {
 .menu-links {
   display: flex;
   color: #fff;
-  flex-direction: column;
-  align-items: center;
-  list-style-type: none;
-  
+  flex-direction: row;
+  align-items: center;    
 }
+
 .titulo-rodape{
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: column;
   text-transform: none;
-  align-items: center;
+  align-items: baseline;
+  flex-wrap: nowrap;
 }
-.titulo-rodape img{
-  height: 40px;
+.titulo-rodape ul
+{
+display: flex;
+height: 50px;
+width: 100%;
+margin: 0;
+padding: 0;
+list-style: none;
+/* float: left; */
 }
-.titulo-rodape li{
-  display: inline;
+.titulo-rodape svg{
+  
 }
-.localizacao{
+footer .rodape{
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  align-content: space-between;
-  justify-content: flex-end;
-  align-items: center;
-}
-footer {
+  text-align: center;
   background-color: #451179;
   color: #fff;
-  padding: 16px 0px;
+  
 }
 /* FIM DO CODIGO DO LEANDRO */
 
