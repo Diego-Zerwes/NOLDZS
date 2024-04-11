@@ -73,8 +73,6 @@ section.sobre{
 }
 
 .container{
-  display: flex;
-  align-items: flex-end;
   /* gap: 60px; */
 }
 
@@ -218,11 +216,13 @@ section#container-cliente {
 
 /* INICIO DO CODIGO DO LEANDRO */
 #menu-baixo{
-  height: 200px;
+  height: 400px;
   width: 100%;
+  display: flex;
   background-color: #451179;
   color: #fff;
-  display: flex;
+  align-items: center;
+  flex-direction: column;
   justify-content: space-between;
   font-family: "Poppins", sans-serif;
   font-weight: 100;
@@ -232,15 +232,26 @@ section#container-cliente {
 .sobre .container-sobre{
   display: flex;
 }
-.container img {
-  margin-left: 150px;
-  margin-top: 45px;
+.container {
+  display: flex;
 }
 .menu-links {
   display: flex;
   color: #fff;
   flex-direction: row;
   align-items: center;    
+}
+
+.menu-links ul{
+  list-style: none;
+  
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-links ul a{
+  color: #fff; 
+  text-decoration: none; 
 }
 
 .titulo-rodape{
@@ -261,9 +272,7 @@ padding: 0;
 list-style: none;
 /* float: left; */
 }
-.titulo-rodape svg{
-  
-}
+
 footer .rodape{
   display: flex;
   flex-direction: column;
@@ -307,6 +316,4 @@ section#conteiner-cliente .portifolio-cliente .cliente .imagem-cliente{
 }
 
 /* FULL HD*/
-@media only screen and (min-width: 1920px) {
-  
-}
+@media only screen and (min-width: 1920px) {}}
