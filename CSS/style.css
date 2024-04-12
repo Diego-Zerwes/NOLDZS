@@ -148,7 +148,7 @@ section#serviços .cartão-serviços .serviço_card .serviço-imagem img{
     border-radius: 50%;
     border: 5px solid white;
     background: white;
-    padding: 1rem;
+    padding: 0.3rem;
 }
 
 .serviço_icone img{
