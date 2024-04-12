@@ -40,6 +40,11 @@ header {
   z-index: 100;
   transition: all 0.2s ease;
 }
+
+.nav-toggle{
+  display: none;
+}
+
 .imagem_de_fundo {
   background-image: url("../imagens/1054256.jpg");
   background-position: center;
@@ -56,9 +61,26 @@ header {
   padding: 0rem 5rem;
 }
 .slogan {
-  font-size: 64px;
+  
   color: #eee;
-  width: 50%;
+  width: 150%;
+  display: flex;
+  justify-content: flex-start;
+}
+.slogan p{
+  display: flex;
+  font-size: 46px;
+  justify-content: flex-start;
+}
+
+.logo img{
+  max-width: 90px;
+  max-height: 70px;
+}
+
+.colored {
+  background: #333;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
 }
 /* FIM DO CODIGO DO FELIPINHO */
 
@@ -74,6 +96,7 @@ section#serviços {
   background-color: #f8f8f8;
 }
 section#serviços .titulo_serviço{
+  height: 10vh;
   font-size: 32px;
   color: #222;
   
@@ -116,7 +139,7 @@ section#serviços .cartão-serviços .serviço_card .serviço-imagem img{
 }
 
 .serviço_card .serviço-imagem .serviço_icone{
-  position: absolute;
+    position: absolute;
     left: 50%;
     right: 0;
     top: 50;
@@ -129,8 +152,8 @@ section#serviços .cartão-serviços .serviço_card .serviço-imagem img{
     padding: 1rem;
 }
 
-.serviço_card .serviço-imagem .serviço_icone img{
-  height: 100%;
+.serviço_icone img{
+    height: 100%;
     width: 100%;
     object-fit: cover;
 }
@@ -175,42 +198,6 @@ section#serviços .cartão-serviços .serviço_card .serviço-imagem img{
 /* FIM DO CODIGO DO NASSER */
 
 /* INICIO DO CODIGO DA DANI */
-section.sobre{
-  padding: 40px 4%;
-}
-
-.container{
-  display: flex;
-  align-items: center;
-  gap: 60px;
-}
-
-#homem {
-  border-radius: 20px;
-}
-
-.sobre .txt-sobre{
-  color:#6b4394;
-}
-
-.sobre .txt-sobre h2{
-  
-  color:#451179;
-  font-size: 30px;
-  margin-bottom: 30px;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-.sobre .txt-sobre p{
-  margin: 10px 0;
-  text-align: justify;
-  font-size: 20px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-.sobre .txt-sobre p span{
-  font-weight: bold;
-}
 
 /* FIM DO CODIGO DA DANI */
 
@@ -310,7 +297,7 @@ section#container-cliente {
 
 /* INICIO DO CODIGO DO LEANDRO */
 #menu-baixo{
-  height: 400px;
+  height: 450px;
   width: 100%;
   display: flex;
   background-color: #451179;
@@ -321,6 +308,10 @@ section#container-cliente {
   font-family: "Poppins", sans-serif;
   font-weight: 100;
   font-style: normal;
+}
+
+.logo-rodape{
+  display: flex;
 }
 
 .sobre .container-sobre{
@@ -353,7 +344,7 @@ section#container-cliente {
   justify-content: flex-start;
   flex-direction: column;
   text-transform: none;
-  align-items: baseline;
+  align-items: center;
   flex-wrap: nowrap;
 }
 .titulo-rodape ul
@@ -361,11 +352,12 @@ section#container-cliente {
 display: flex;
 height: 50px;
 width: 100%;
+justify-content: center;
 margin: 0;
 padding: 0;
 list-style: none;
-/* float: left; */
 }
+
 
 footer .rodape{
   display: flex;
@@ -373,6 +365,7 @@ footer .rodape{
   text-align: center;
   background-color: #451179;
   color: #fff;
+  padding: 10px;
   
 }
 /* FIM DO CODIGO DO LEANDRO */
@@ -382,6 +375,18 @@ footer .rodape{
 
 /* Celular */
 @media only screen and (max-width: 550px) {
+  .menu li > a{
+    display: none;
+  }
+
+  .nav-toggle svg{
+    width: 32px;
+    height: 32px;
+  }
+
+  .nav-toggle{
+    display: block;
+  }
 }
 /* Tablet */
 @media only screen and (min-width: 550px) {
@@ -392,21 +397,95 @@ footer .rodape{
 }
 /* NOTBOOK MEDIO */
 @media only screen and (min-width: 1440px) {
-section#container-cliente .portifolio-cliente{
-  width: 10%;
-  height: 100%;
-  display: flex;
-}
-section#container-cliente .portifolio-cliente .cliente{
-    width: 0%;
-    height: 0;
+  .slogan {
+    font-size: 64px;
+    color: #eee;
+    width: 50%;
+  }
+
+  section#serviços .titulo_serviço{
+    height: 20vh;
+    font-size: 32px;
+    color: #222;
+    
+  }
+
+  section#container-cliente .portifolio-cliente{
+    width: 100%;
+    height: 100%;
+    display: flex;
+  }
+  section#container-cliente .portifolio-cliente .cliente{
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     
   }
-section#conteiner-cliente .portifolio-cliente .cliente .imagem-cliente{
-  width: 10%;
+
+  .cliente{
+    width: 24%;
+  }
+
+  section#conteiner-cliente .portifolio-cliente .cliente .imagem-cliente img{
+    width: 200%;
+    height: 100%;
+  }
+
+  .flex{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+  }
+  .container-sobre{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .container-sobre img{
+    width: 30%;
+    height: 5%;
+    display: flex;
+    border-radius: 5%;
+  }
+
+  .txt-sobre h2{
+    display: flex;
+    justify-content: center;
+  }
+
+  .txt-sobre{
+     gap: 10px;
+     margin-left: 3%;
+     padding: 5%;
+  }
+
+section#menu-baixo{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 250px;
+  justify-content: space-evenly;
+
+}
+.container{
+  display: flex;
+  flex-direction: column;
+}
+.menu-links{
+  display: flex;
+  justify-content: center;
+  width: 20%;
+}
+.titulo-rodape{
+  display: flex;
+  
+  justify-content: flex-end;
 }
 }
 
