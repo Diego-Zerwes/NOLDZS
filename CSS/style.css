@@ -411,7 +411,7 @@ footer .rodape{
   display: flex;
   flex-direction: column;
   text-align: center;
-  background-color: #4e4e4e;
+  background-color: #451179;
   color: #fff;
   padding: 10px;
   
@@ -539,7 +539,5 @@ section#menu-baixo{
 
 /* FULL HD*/
 
-@media only screen and (min-width: 1920px) {
-  
-}
+@media only screen and (min-width: 1920px) {}
 
