@@ -14,7 +14,7 @@ Projeto: NOLDZS
 
 <p align="center">
 <h3> Integrantes do Grupo </h3>
-Breno Moreno Sanches, Daniela Kauani Corte Dias, Felipe Oliveira Fernandes, Diego Zerwes Feitosa, Leandro So Fun Hsu Liu e Nasser Nader Al Masri.
+Breno Moreno Sanches, Daniela Kauani Corte Dias, Felipe de Oliveira Fernandes, Diego Zerwes Feitosa, Leandro So Fun Hsu Liu e Nasser Nader Al Masri.
 </p>
 
 <br>
@@ -79,3 +79,4 @@ O sistema deve incluir uma seção exibindo a logo dos clientes que a empresa j�
 
 Por enquanto usaremos html e css. Ao longo da jornada adicionaremos mais tecnologias como js,boostrap e google analytics.
 </p>
+
