@@ -82,9 +82,9 @@
     background: #333;
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
   }
-  /* INICIO BRENO */
 
-  /* FIM BRENO */
+  /* CSS SOBRENOS */
+  /* FINAL */
   #menu-baixo{
     height: 450px;
     width: 100%;
@@ -157,10 +157,13 @@
     padding: 10px;
     
   }
+  /* FIM DO CODIGO DO LEANDRO */
+  
+  
   /* responsivo */
-
-/* Celular */
-@media only screen and (max-width: 550px) {
+  
+  /* Celular */
+  @media only screen and (max-width: 550px) {
     .menu li > a{
       display: none;
     }
@@ -215,5 +218,4 @@
       /* FULL HD*/
       
       @media only screen and (min-width: 1920px) {}
-      
       
