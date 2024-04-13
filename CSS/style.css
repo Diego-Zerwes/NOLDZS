@@ -539,5 +539,96 @@ section#menu-baixo{
 
 /* FULL HD*/
 
-@media only screen and (min-width: 1920px) {}
+@media only screen and (min-width: 1920px) {
+  .slogan {
+    font-size: 100px;
+    color: #eee;
+    width: 80%;
+  }
+
+  section#serviços .titulo_serviço{
+    height: 20vh;
+    font-size: 60px;
+    color: #222;
+    
+  }
+
+  section#container-cliente .portifolio-cliente{
+    width: 100%;
+    height: 100%;
+    display: flex;
+  }
+  section#container-cliente .portifolio-cliente .cliente{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+  }
+
+  .cliente{
+    width: 30%;
+  }
+
+  section#conteiner-cliente .portifolio-cliente .cliente .imagem-cliente img{
+    width: 200%;
+    height: 100%;
+  }
+
+  .flex{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+  }
+  .container-sobre{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .container-sobre img{
+    width: 60%;
+    height: 10%;
+    display: flex;
+    border-radius: 10%;
+  }
+
+  .txt-sobre h2{
+    display: flex;
+    justify-content: center;
+  }
+
+  .txt-sobre{
+     gap: 20px;
+     margin-left: 6%;
+     padding: 10%;
+  }
+
+section#menu-baixo{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 250px;
+  justify-content: space-evenly;
+
+}
+.container{
+  display: flex;
+  flex-direction: column;
+}
+.menu-links{
+  display: flex;
+  justify-content: center;
+  width: 40%;
+}
+.titulo-rodape{
+  display: flex;
+  
+  justify-content: flex-end;
+}
+}
 
