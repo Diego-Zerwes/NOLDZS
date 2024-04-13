@@ -75,6 +75,7 @@ header {
 .slogan p{
   display: flex;
   font-size: 46px;
+  
   justify-content: flex-start;
 }
 
@@ -708,6 +709,7 @@ section#menu-baixo{
   height: 230px;
 }
 }
+
 
 
 
