@@ -605,7 +605,7 @@ section#menu-baixo{
 
 /* FULL HD*/
 
-@media only screen and (min-width: 1920px) {
+@media only screen and (min-width: 1920px){
   .slogan {
     font-size: 64px;
     color: #eee;
@@ -656,4 +656,58 @@ section#menu-baixo{
   height: 230px;
 }
 }
+
+@media only screen and (min-width: 1440px){
+  .slogan {
+    font-size: 64px;
+    color: #eee;
+    width: 25%;
+  }
+  
+ 
+  .container-sobre{
+    width: 100%;
+    
+  }
+  .container-sobre img{
+    width: 50%;
+    height: 5%;
+    display: flex;
+    align-items: center;
+    border-radius: 5%;
+  }
+  .txt-sobre{
+    width: 20rem;
+    
+  }
+  .flex{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 18%;
+  }
+  .paragrafo3{
+    width: 100%;
+    font-size: 24px;
+    display: flex;
+   flex-direction: column;
+    
+  }
+
+  section#serviços .cartão-serviços .serviço_card{
+      width: 500px;
+  }
+  .serviço_card .serviço-imagem .serviço_icone{
+    height: 80px;
+    width: 80px;
+    padding: 1rem;
+}
+
+.serviço_card .serviço_conteudo{
+  height: 230px;
+}
+}
+
+
 
