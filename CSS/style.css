@@ -379,7 +379,7 @@ section#container-cliente {
 
 /* INICIO DO CODIGO DO LEANDRO */
 #menu-baixo{
-  height: 450px;
+  height: 500px;
   width: 100%;
   display: flex;
   background-color: #451179;
@@ -460,7 +460,9 @@ footer .rodape{
   .menu li > a{
     display: none;
   }
-
+  .slogan{
+    max-width: 100%;
+  }
   .nav-toggle svg{
     width: 32px;
     height: 32px;
@@ -468,6 +470,17 @@ footer .rodape{
 
   .nav-toggle{
     display: block;
+  }
+  .titulo_serviço{
+    display: flex;
+    width: 100%;
+    font-size: 20px;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+  }
+  .titulo_serviço p{
+    font-size: 26px;
+    margin-left: 15px;
   }
 }
 /* Tablet */
@@ -506,7 +519,7 @@ footer .rodape{
   .slogan {
     font-size: 64px;
     color: #eee;
-    width: 10%;
+    width: 50%;
   }
 }
 /* NOTBOOK MEDIO */
