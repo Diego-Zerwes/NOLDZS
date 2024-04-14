@@ -475,6 +475,7 @@ footer .rodape{
     display: flex;
     width: 100%;
     font-size: 20px;
+    justify-content: center;
     margin-bottom: 1.5rem;
   }
   .titulo_serviço p{
