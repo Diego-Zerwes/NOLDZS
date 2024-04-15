@@ -111,6 +111,22 @@
     color: #451179;
   }
 
+  /* INICIO BRENO */
+  .titulo_formulario h1{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2rem 0rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+    color: #451179;
+  }
+
   form{
     width: 28%;
     background-color: #451179;
