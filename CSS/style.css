@@ -223,7 +223,7 @@ section#serviços .cartão-serviços .serviço_card .serviço-imagem img{
 /* FIM DO CODIGO DO NASSER */
 
 /* INICIO DO CODIGO DA DANI */
-.sobre {
+#sobre {
   display: flex;
   
 }
@@ -245,7 +245,7 @@ section#serviços .cartão-serviços .serviço_card .serviço-imagem img{
   
 }
 
-.sobre .txt-sobre{
+#sobre .txt-sobre{
   width: 100%;
   padding: 10px;
   display: flex;
@@ -253,7 +253,7 @@ section#serviços .cartão-serviços .serviço_card .serviço-imagem img{
   color:#6b4394;
 }
 
-.sobre .txt-sobre h2{
+#sobre .txt-sobre h2{
   width: 100%;
   display: flex;
   color:#451179;
@@ -262,7 +262,7 @@ section#serviços .cartão-serviços .serviço_card .serviço-imagem img{
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.sobre .txt-sobre p{
+#sobre .txt-sobre p{
   width: 100%;
   display: flex;
   text-align: justify;
@@ -278,7 +278,7 @@ section#serviços .cartão-serviços .serviço_card .serviço-imagem img{
    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.sobre .txt-sobre p span{
+#sobre .txt-sobre p span{
   font-weight: bold;
 } 
 /* FIM DO CODIGO DA DANI */
