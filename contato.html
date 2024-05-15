@@ -65,7 +65,7 @@
 
     <div class="container">
 
-      <form>
+      <form id="form-contato">
 
         <fieldset>
 
@@ -91,16 +91,16 @@
             <label for="opcoes">*Assunto</label>
 
             <label class="opcoes">
-              <input type="radio" name="opcoes" required>Site Profissional
+              <input type="radio" name="opcoes" value="Site Profissional" required>Site Profissional
             </label>
-
+            
             <label class="opcoes">
-              <input type="radio" name="opcoes">Loja Virtual
+              <input type="radio" name="opcoes" value="Loja Virtual">Loja Virtual
             </label>
-
+            
             <label class="opcoes">
-              <input type="radio" name="opcoes">Marketing
-            </label>
+              <input type="radio" name="opcoes" value="Marketing">Marketing
+            </label>            
 
           </div> <br>
 
@@ -110,7 +110,7 @@
           </div> <br>
 
           <div id="enviar">
-            <button type="submit">Enviar</button>
+            <button id="botão" type="submit" onclick="enviar()">Enviar</button>
           </div>
 
         </fieldset>
@@ -179,8 +179,11 @@
           </footer>
           <!------------------------------ FIM DO CODIGO DO LEANDRO ------------------------------------------------------------------------->
         </main>
+        <script src="JavaScript/contato.js"></script>
         <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-        <script src="./JavaScript/script.js"></script>
+        <script src="./JavaScript/script.js">
+        </script>
+        
 </body>
 
 </html>
