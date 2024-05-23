@@ -8,6 +8,10 @@ const removeloading = () => {
     button.innerHTML = 'Enviar';
 }
 
+const limparFormulario = () => {
+    const form = document.getElementById('form-contato');
+    form.reset();
+}
 
 const enviar = (event) => {
     event.preventDefault();
@@ -30,16 +34,15 @@ const enviar = (event) => {
 
     .then(response => {
         if (response.ok) {
-            // Exibe um alerta de sucesso se a resposta da requisição for bem-sucedida
+            //bem-sucedida
             alert("Formulário enviado com sucesso!");
+            limparFormulario();
             removeloading();
         } else {
-            // Exibe um alerta de erro se a resposta da requisição não for bem-sucedida
+            // Exibe um alerta de erro 
             alert("Ocorreu um erro ao enviar o formulário. Por favor, tente novamente.");
         }
-    })
+    });
 }
 
 document.querySelector('#form-contato').addEventListener('submit', enviar);
-
-
