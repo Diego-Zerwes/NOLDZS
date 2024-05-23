@@ -6,3 +6,21 @@ $(window).on('scroll', function () {
       $("#header").removeClass('colored');
   }
 })
+
+const anime= document.querySelectorAll(".hidden");
+
+const animacao= new IntersectionObserver((entries)=>{
+  entries.forEach((entry)=>{
+    const visio= entry.isIntersecting;
+    toggleVisibility(entry.target, visio);
+  })
+})
+
+anime.forEach((e)=>animacao.observe(e))
+const toggleVisibility=(e,visio)=>{
+  if (visio){
+    e.classList.add("show");
+  }else{
+    e.classList.remove("show");
+  }
+}

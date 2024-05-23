@@ -375,6 +375,18 @@ section#container-cliente {
   transform: scale(1.02);
 }
 
+.hidden{
+  opacity: 0;
+  transform: translateX(-50%);
+  filter: blur(5px);
+  transition: 0.5s;
+}
+.show{
+  opacity: 1;
+  transform: translateX(0%);
+  filter: blur(0px);
+}
+
 /* FIM DO CODIGO DO DIEGO */
 
 /* INICIO DO CODIGO DO LEANDRO */
