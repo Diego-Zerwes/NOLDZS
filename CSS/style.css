@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic light; 
 }
 /* INICIO DO CODIGO DO FELIPINHO */
 
@@ -251,6 +254,7 @@ section#serviços .cartão-serviços .serviço_card .serviço-imagem img{
   display: flex;
   flex-direction: column;
   color:#6b4394;
+  
 }
 
 #sobre .txt-sobre h2{
@@ -266,17 +270,20 @@ section#serviços .cartão-serviços .serviço_card .serviço-imagem img{
   width: 100%;
   display: flex;
   text-align: justify;
-  font-size: 20px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic light;
+  font-size: 18px; 
 }
 .paragrafo3{
   width: 98%;
   margin-left: 2%;
   margin-top: 10px;
   color:#451179;
-   font-size: 20px;
-   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 18px;
 }
+
+
 
 #sobre .txt-sobre p span{
   font-weight: bold;
@@ -507,13 +514,16 @@ footer .rodape{
     flex-direction:row;
   }
 .paragrafo3{
- width: 95%;
- margin-left: 2%;
- margin-top: 10px;
- color:#451179;
-  font-size: 20px;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  width: 95%;
+  margin-left: 2%;
+  margin-top: 10px;
+  color:#451179;
+  font-size: 18px;
+  font-family:"Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic light; 
 }
+
   .container-sobre img{
     width: 50%;
     height: 50%;
@@ -665,7 +675,7 @@ section#menu-baixo{
   }
   .paragrafo3{
     width: 100%;
-    font-size: 24px;
+    font-size: 18px;
     display: flex;
    flex-direction: column;
     
@@ -717,7 +727,7 @@ section#menu-baixo{
   }
   .paragrafo3{
     width: 100%;
-    font-size: 24px;
+    font-size: 18px;
     display: flex;
    flex-direction: column;
     
