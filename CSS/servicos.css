@@ -284,6 +284,10 @@ footer .rodape {
     display: none;
   }
 
+  .slogan{
+    max-width: 100%;
+  }
+
   .nav-toggle svg {
     width: 32px;
     height: 32px;
@@ -295,9 +299,19 @@ footer .rodape {
 }
 /* Tablet */
 @media only screen and (min-width: 550px) {
+  .slogan {
+    font-size: 64px;
+    color: #eee;
+    width: 50%;
+  }
 }
 /* NOTBOOK PEQUENO */
 @media only screen and (min-width: 992px) {
+  .slogan {
+    font-size: 64px;
+    color: #eee;
+    width: 50%;
+  }
 }
 @media only screen and (min-width: 1440px) {
   .slogan {
@@ -325,6 +339,15 @@ footer .rodape {
     display: flex;
 
     justify-content: flex-end;
+  }
+}
+
+/* NOTBOOK MEDIO */
+@media only screen and (min-width: 1440px){
+  .slogan {
+    font-size: 64px;
+    color: #eee;
+    width: 50%;
   }
 }
 
