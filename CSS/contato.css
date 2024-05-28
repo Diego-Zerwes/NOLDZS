@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic light; 
   }
   /* INICIO DO CODIGO DO FELIPINHO */
   
@@ -61,6 +64,7 @@
     display: flex;
   
     flex-direction: column;
+  
     justify-content: center;
     align-items: flex-start;
     padding: 0rem 5rem;
@@ -299,6 +303,11 @@
   form{
     width: 100%;
   }
+
+  .slogan{
+    max-width: 100%;
+  }
+
   .menu li > a{
     display: none;
   }
@@ -320,10 +329,19 @@
   }
   /* Tablet */
   @media only screen and (min-width: 550px) {
+    .slogan {
+      font-size: 64px;
+      color: #eee;
+      width: 50%;
+    }
   }
   /* NOTBOOK PEQUENO */
   @media only screen and (min-width: 992px) {
-    
+    .slogan {
+      font-size: 64px;
+      color: #eee;
+      width: 50%;
+    }
   }
   /* NOTBOOK MEDIO */
   @media only screen and (min-width: 1440px) {
@@ -366,6 +384,14 @@
           color: #eee;
           width: 25%;
         }
+
+        @media only screen and (min-width: 1440px){
+          .slogan {
+            font-size: 64px;
+            color: #eee;
+            width: 25%;
+          }
+        }
       }
       
-      
+        
