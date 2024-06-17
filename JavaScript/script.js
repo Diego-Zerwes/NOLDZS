@@ -24,3 +24,12 @@ const toggleVisibility=(e,visio)=>{
     e.classList.remove("show");
   }
 }
+
+
+const faqs = document.querySelectorAll(".perguntasFrequentes");
+
+faqs.forEach(perguntasFrequentes => {
+  perguntasFrequentes.addEventListener("click", () => {
+    perguntasFrequentes.classList.toggle("active");
+  });
+});
