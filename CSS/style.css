@@ -396,6 +396,71 @@ section#container-cliente {
 
 /* FIM DO CODIGO DO DIEGO */
 
+/*INICIO CODIGO DANI FAQ*/
+
+#FAQ {
+  color: #6b4394;
+  min-height: 100vh;
+  width: 80%;
+  padding-bottom: 5rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titleFAQ {
+  font-size: 3rem;
+  margin: 2rem 0rem;
+}
+
+.perguntasFrequentes {
+  max-width: 700px;
+  margin-top: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #6b4394;
+  cursor: pointer;
+}
+
+.pergunta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pergunta h3 {
+  font-size: 1.5rem;
+}
+
+.resposta {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 1.3s ease;
+}
+
+.resposta p {
+  padding-top: 1rem;
+  line-height: 1.6;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.perguntasFrequentes.active .resposta {
+  max-height: 300px;
+}
+
+.seta {
+  transition: transform 0.3s ease;
+  margin-left: 10px; 
+}
+
+.perguntasFrequentes.active .seta {
+  transform: rotate(180deg);
+}
+
+
+/*FIM CODIGO DANI FAQ*/
+
 /* INICIO DO CODIGO DO LEANDRO */
 #menu-baixo{
   height: 500px;
