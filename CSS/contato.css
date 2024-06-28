@@ -129,10 +129,15 @@
     border: none;
   }
 
+  label{
+    cursor: pointer;
+  }
+
   input{
     border: none;
     border-radius: 5px;
     width: 50%;
+    cursor: pointer;
   }
 
   #assunto .opcoes{
@@ -146,7 +151,6 @@
 
 
   #name, #email, #telefone, #assunto{
-   
     display: flex;
     justify-content: space-between;
     font-family: "Poppins", sans-serif;
@@ -154,6 +158,63 @@
     font-style: normal;
     font-size: 15px;
     color: white;
+  }
+
+  #termos-e-condicoes{
+    margin-bottom: 20%;
+    display: flex;
+  }
+  
+  #termos-e-condicoes p{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: bold;
+    font-variation-settings: "slnt" 0;
+    color: white;
+    cursor: pointer;
+  }
+
+  #pop-up{
+    width: 5%;
+  }
+  
+  #dialog{
+    width: 70%;
+    border-radius: 10px;
+    margin-left: 15%;
+    margin-top: 5%;
+    padding: 5%;
+  }
+  
+  #texto-popUp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5%;
+  }
+  
+  #botao-fechar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  #botao-fechar button{
+    width: 15%;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    background-color: #5177ff;
+    color: white;
+    cursor: pointer;
+  }
+
+  #botao-fechar button:hover{
+    background: #486ffd52;
+    transform: scale(1.02);
   }
 
   #enviar{
@@ -173,6 +234,7 @@
     transition: all .4s ease-in-out;
     text-align: center;
     box-shadow: 0px 2px 10px rbga(4, 4, 4, 0.125);
+    cursor: pointer;
   }
 
   #enviar button:hover{
